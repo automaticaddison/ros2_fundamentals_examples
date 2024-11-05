@@ -5,7 +5,7 @@ This package contains examples demonstrating fundamental ROS 2 concepts and patt
 ## Description
 
 The package includes minimalist ROS 2 code to demonstrate important ROS 2 concepts and patterns.
-- Following ROS 2 Python style guidelines
+- Following ROS 2 C++ and Python style guidelines
 
 ## Prerequisites
 
