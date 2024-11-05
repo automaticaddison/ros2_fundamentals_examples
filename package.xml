@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_fundamentals_examples</name>
+  <version>0.0.0</version>
+  <description>Basic examples demonstrating ROS 2 concepts</description>
+  <maintainer email="automaticaddison@example.com">Addison Sears-Collins</maintainer>
+  <license>Apache-2.0</license>
+
+  <!--Specify build tools that are needed to compile the package-->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!--Declares package dependencies that are required for building the package-->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <!--Specifies dependencies that are only needed for testing the package-->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
