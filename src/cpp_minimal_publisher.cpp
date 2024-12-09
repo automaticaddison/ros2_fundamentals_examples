@@ -1,5 +1,5 @@
 /**
- * @file minimal_cpp_publisher.cpp
+ * @file cpp_minimal_publisher.cpp
  * @brief Demonstrates publishing string messages to a ROS 2 topic.
  *
  * Description: Demonstrates the basics of publishing messages within
@@ -89,9 +89,9 @@ private:
  * Initializes the ROS 2 system and runs the minimal_cpp_publisher node.
  * It keeps the node alive until it is manually terminated.
  */
+#ifndef TESTING_EXCLUDE_MAIN
 int main(int argc, char * argv[])
 {
-
   // Initialize ROS 2.
   rclcpp::init(argc, argv);
 
@@ -105,3 +105,4 @@ int main(int argc, char * argv[])
   // End of program.
   return 0;
 }
+#endif

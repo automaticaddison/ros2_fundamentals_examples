@@ -1,5 +1,5 @@
 /**
- * @file minimal_cpp_subscriber.cpp
+ * @file cpp_minimal_subscriber.cpp
  * @brief Demonstrates subscribing to string messages on a ROS 2 topic.
  *
  * Description: Demonstrates the basics of subscribing to messages within
